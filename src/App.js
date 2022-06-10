@@ -7,7 +7,8 @@ import {
 
 } from "react-router-dom";
 // import Contact from './Components/Contact/Contact';
-// import Home from './Components/Home/Home';
+import Home from './Components/Home/Home';
+import Intro from './Components/Intro/Intro';
 // import About from './Components/About/About';
 
 import Navbars from './Components/Navbars/Navbars';
@@ -32,10 +33,14 @@ function App() {
 
         <Switch>
 
-          {/* <Route exact path="/home">
+          <Route exact path="/home">
             <Home />
           </Route>
-          <Route path="/about">
+          <Route  path="/">
+            <Home />
+          </Route>
+         
+          {/* <Route path="/about">
             <About />
           </Route>
 
