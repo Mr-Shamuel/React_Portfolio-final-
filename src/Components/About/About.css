@@ -1,0 +1,198 @@
+.about_container {
+    display: grid;
+    grid-template-columns: 55% 45%;
+    gap: 15%;
+
+}
+
+.about_me {
+
+    width: 50%;
+    border-radius: 2em;
+    background: linear-gradient(45deg, transparent, #7aa3e6, transparent);
+    display: grid;
+    place-items: center;
+
+}
+
+.about_me-img {
+    border-radius: 2em;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: 0.5s ease;
+}
+
+.about_me-img:hover {
+
+    transform: rotate(0);
+    transition: 0.5s ease;
+
+    cursor: pointer;
+}
+
+.about_cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+
+}
+
+.about_card {
+    background: #7aa3e6;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 2rem;
+    color: white;
+    font-weight: bolder;
+    transition: 0.5s ease;
+
+
+}
+
+.about_card:hover {
+    background: linear-gradient(to left, rgba(92, 92, 197, 0.3), rgba(170, 143, 163, 0.3)) no-repeat center/cover;
+    border-color: red;
+
+    cursor: pointer;
+    color: rgb(255, 7, 57);
+
+
+}
+
+.about_icon small,
+h5 {
+    font-weight: bolder;
+}
+
+
+
+/* ====================FOR Mobile DEVICE====================== */
+
+@media only screen and (max-width: 600px) {
+    .about_container {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .about_container p {
+
+        margin: 20px 30px;
+        margin-bottom: 40px;
+
+
+    }
+
+    .about_me {
+
+        width: 50%;
+        border-radius: 2em;
+        background: linear-gradient(45deg, transparent, #7aa3e6, transparent);
+        display: grid;
+        place-items: center;
+
+        margin-top: 30px;
+        margin: 40px auto;
+
+    }
+
+    .about_me-img {
+
+        border-radius: 2em;
+        overflow: hidden;
+        transform: rotate(10deg);
+        transition: 0.5s ease;
+    }
+
+}
+
+/* ====================FOR LAPTOP DEVICE====================== */
+@media only screen and (max-width:768px) {
+
+    .about_container {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .about_container p {
+
+        margin: 20px 30px;
+        margin-bottom: 40px;
+
+
+    }
+
+    .about_me {
+
+        width: 50%;
+        border-radius: 2em;
+        background: linear-gradient(45deg, transparent, #7aa3e6, transparent);
+        display: grid;
+        place-items: center;
+
+        margin-top: 30px;
+        margin: 40px auto;
+
+    }
+
+    .about_me-img {
+
+        border-radius: 2em;
+        overflow: hidden;
+        transform: rotate(10deg);
+        transition: 0.5s ease;
+    }
+
+
+
+}
+ 
+
+/* ====================FOR DESKTOP DEVICE====================== */
+
+@media only screen and (max-width:1024px) {
+    .about_me {
+
+        width: 60%;
+        height: 52%;
+         
+        border-radius: 2em;
+        background: linear-gradient(45deg, transparent, #7aa3e6, transparent);
+    
+
+    }
+
+    .about_me-img {
+
+        border-radius: 2em;
+        overflow: hidden;
+        transform: rotate(10deg);
+        transition: 0.5s ease;
+    }
+}
+
+@media only screen and (max-width:1224px) {
+    .about_me {
+
+        width: 60%;
+        height: 80%;
+         
+        border-radius: 2em;
+        background: linear-gradient(45deg, transparent, #7aa3e6, transparent);
+    
+
+    }
+
+    .about_me-img {
+       
+        border-radius: 2em;
+        overflow: hidden;
+        transform: rotate(10deg);
+        transition: 0.5s ease;
+    }
+}
+ 

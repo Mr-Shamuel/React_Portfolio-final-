@@ -1,0 +1,38 @@
+.btmline{
+    border-bottom: 3px solid grey;
+    width: 180px;
+    
+}
+.Project_card{
+     margin: 20px 0px;
+    border: 2px solid rgb(194, 148, 148);
+    
+}
+ 
+.Project_card:hover{
+    box-shadow:5px 5px 20px #0d5cda;
+ 
+    transition: 0.3s ease;
+    cursor: pointer;
+    
+}
+ 
+
+/* ====================FOR Mobile DEVICE====================== */
+
+@media only screen and (max-width: 600px) {
+    .card_container .col-lg-3{
+       display:flex;
+       justify-content: center;
+       align-items: center;
+
+    }
+}
+ 
+@media only screen and (min-width: 768px) {
+    .card_container .Project_card{
+       
+    }
+    
+}
+ 

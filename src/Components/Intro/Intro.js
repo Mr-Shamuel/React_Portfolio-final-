@@ -10,17 +10,17 @@ const Intro = () => {
         <div className="intro mb-3" id="intro">
             <div className="left">
                 <div className="imgContainer">
-                 
+           
 
                         <img className=""src={img} alt="" />
-                 
+             
 
 
                 </div>
             </div>
 
 
-       
+ 
 
                 <div className="right">
 
@@ -51,7 +51,8 @@ const Intro = () => {
 
 
                 </div>
-           
+     
+ 
 
         </div>
     );

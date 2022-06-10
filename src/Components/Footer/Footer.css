@@ -1,0 +1,20 @@
+.social a:hover{
+    color: rgb(0, 0, 0);
+  background-color:rgb(241, 241, 241);
+   text-decoration:none;
+}
+.social a{
+    text-decoration:none;
+    padding:5px;
+    transition: 0.5s ease;
+  
+    border-radius:50%;
+    
+}
+.social{
+    margin-bottom: 7px;
+}
+.footer{
+    background: linear-gradient(to left, rgba(92, 92, 197, 0.3), rgba(170, 143, 163, 0.3)) no-repeat center/cover;
+   
+}
