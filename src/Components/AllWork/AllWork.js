@@ -12,6 +12,7 @@ import img9 from '../../img/pinguin.PNG';
 import img10 from '../../img/slider.PNG';
 import img11 from '../../img/phone.PNG';
 import img12 from '../../img/psd.PNG';
+import img13 from '../../img/monico.PNG';
 
 
 
@@ -27,6 +28,14 @@ const worksData = [
         github: "https://github.com/Mr-Shamuel/Online-tutor-2022",
         live: "https://onlinetutor2022.netlify.app/",
         icon: img1
+    },
+    
+    {
+        name: "Monico Mart ",
+        description: "An ecommerce website.Where Customer can order their product  by categories easily. ",
+        github: "https://github.com/Mr-Shamuel/Monico_mart",
+        live: "https://monicomart.netlify.app/",
+        icon: img13
     },
     {
         name: "Ema John",
@@ -109,7 +118,7 @@ const AllWork = () => {
     return (
         <div className="container">
             
-               <div className="allwork pt-2 pb-5">
+               <div className="allwork pt-2 pb-5" data-aos="fade-down">
                 <h3 className="text-center ">My <span className="text-warning ">Works </span></h3>
                 <div className="btmline mx-auto "> </div>
                 <div className="btmline mx-auto mb-3"> </div>

@@ -18,18 +18,24 @@ const Work = () => {
     return (
         <div className="container">
             <section class="sectionnGap"></section>
+            <div className="work" data-aos="fade-down">
+                <h3 className="text-center">My Recent works <br /> <span className="text-warning ">Portfolio</span></h3>
+                <div className="btmline mx-auto"> </div>
+                <div className="btmline mx-auto  "> </div>
+
+            </div>
 
 
-            <h3 className="text-center">My Recent works <br /> <span className="text-warning ">Portfolio</span></h3>
-            <div className="btmline mx-auto"> </div>
-            <div className="btmline mx-auto  "> </div>
+
 
 
 
             <div className="card_container py-5">
                 <div className="row">
 
-                    <div className="col-lg-3 col-md-6 col-12 ">
+                    <div className="col-lg-3 col-md-6 col-12 " data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="1000">
                         <Card className="  Project_card" sx={{ maxWidth: 345 }}>
                             <CardActionArea>
                                 <CardMedia
@@ -68,7 +74,9 @@ const Work = () => {
 
                     </div>
 
-                    <div className="col-lg-3 col-md-6 col-12 ">
+                    <div className="col-lg-3 col-md-6 col-12 "  data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="1000">
                         <Card className="  Project_card" sx={{ maxWidth: 345 }}>
                             <CardActionArea>
                                 <CardMedia
@@ -114,7 +122,9 @@ const Work = () => {
 
 
 
-                    <div className="col-lg-3 col-md-6 col-12 ">
+                    <div className="col-lg-3 col-md-6 col-12"  data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="1000">
                         <Card className="  Project_card" sx={{ maxWidth: 345 }} >
                             <CardActionArea>
                                 <CardMedia
@@ -125,7 +135,7 @@ const Work = () => {
                                 />
                                 <CardContent>
                                     <Typography gutterBottom variant="h5" component="div">
-                                         Cooking Master 
+                                        Cooking Master
                                     </Typography>
                                     <Typography variant="body2" color="text.secondary">
                                         It’s a Food recipes site where anyone can search their favorite food also
@@ -153,7 +163,9 @@ const Work = () => {
 
 
                     </div>
-                    <div className="col-lg-3 col-md-6 col-12  ">
+                    <div className="col-lg-3 col-md-6 col-12 "  data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="1000">
                         <Card className="  Project_card" sx={{ maxWidth: 345 }}>
                             <CardActionArea>
                                 <CardMedia
@@ -164,7 +176,7 @@ const Work = () => {
                                 />
                                 <CardContent>
                                     <Typography gutterBottom variant="h5" component="div">
-                                         Cruise-Queen 
+                                        Cruise-Queen
                                     </Typography>
                                     <Typography variant="body2" color="text.secondary">
                                         It a Online Ship Ticket Booking System. So Anyone can easily Buy ticket easily And enjoy their travel.
@@ -203,7 +215,7 @@ const Work = () => {
 
             </div>
 
-            <div className="buttonInfo text-center ">
+            <div className="buttonInfo text-center " data-aos="zoom-in">
                 <Link to="/work" className="btn btn-success w-25 p-2  "> All Works</Link>
             </div>
             <div className="sectionnGap"></div>

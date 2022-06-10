@@ -1,4 +1,4 @@
-import React from "react"; 
+import React from "react";
 import AddIcCallOutlinedIcon from '@mui/icons-material/AddIcCallOutlined';
 import SendIcon from '@mui/icons-material/Send';
 import swal from 'sweetalert';
@@ -8,7 +8,7 @@ import emailjs from '@emailjs/browser';
 import MailIcon from '@mui/icons-material/Mail';
 import FmdGoodIcon from '@mui/icons-material/FmdGood';
 import Typewriter from 'typewriter-effect';
- 
+
 const Contact = () => {
     const formRef = useRef();
 
@@ -39,26 +39,26 @@ const Contact = () => {
 
     }
     return (
-    
+
 
         <div className="contact_form" id='contact' >
-       
-            <div >
-           
-                    <h3 className="text-center">Get In touch <br /> <span className="text-warning ">Contact</span></h3>
-                    <div className="btmline mx-auto"> </div>
-                    <div className="btmline mx-auto"> </div>
-                 
+
+            <div data-aos="fade-down" >
+
+                <h3 className="text-center">Get In touch <br /> <span className="text-warning ">Contact</span></h3>
+                <div className="btmline mx-auto"> </div>
+                <div className="btmline mx-auto"> </div>
+
 
             </div>
-           
-           
-                
-           
+
+
+
+
 
             <div class="container contact  h-50 ">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4" data-aos="zoom-out-right" data-aos-duration="1500">
 
                         <div class="contact-info text-center  ">
 
@@ -86,7 +86,7 @@ const Contact = () => {
                     </div>
 
 
-                    <div class="col-md-8 border">
+                    <div class="col-md-8 border" data-aos="zoom-out-left" data-aos-duration="1500">
 
                         <div className="text-center mx-5 px-5 mb-3" > <h6 className="xx p-2"> If you have any question or want to say anything, please do not hesitate to send me a message."</h6>
                         </div>
@@ -120,15 +120,15 @@ const Contact = () => {
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                  
-                                    <div class="col col-sm-10 ">
+
+                                    <div class="col col-sm-10 " data-aos="zoom-in">
                                         <button className="border btn btn-outline-success" type="submit"><SendIcon className="mx-2 m-2" ></SendIcon>  Send</button>
-                                      
+
 
                                     </div>
 
-                                   
-                                 
+
+
                                 </div>
                             </form>
 
@@ -144,7 +144,7 @@ const Contact = () => {
 
 
         </div>
-      
+
 
 
     );

@@ -8,53 +8,55 @@ import Typewriter from 'typewriter-effect';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import './Workdata.css';
- 
+
 const WorkData = ({ info }) => {
     console.log(info);
     return (
-    
-            <div className="col-md-6 col-lg-3 col-12 pb-3">
-                <Card className="  Project_card" sx={{ maxWidth: 345 }}>
-                    <CardActionArea>
-                        <CardMedia
-                            component="img"
-                            height="170"
-                            image={info.icon}
-                            alt="img"
-                        />
-                        <CardContent>
-                            <Typography gutterBottom variant="h5" component="div">
+
+        <div className="col-md-6 col-lg-3 col-12 pb-3" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000">
+            <Card className="  Project_card" sx={{ maxWidth: 345 }}>
+                <CardActionArea>
+                    <CardMedia
+                        component="img"
+                        height="170"
+                        image={info.icon}
+                        alt="img"
+                    />
+                    <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
                             <Typewriter
-                                    options={{
-                                        strings: [`${info.name}`],
+                                options={{
+                                    strings: [`${info.name}`],
 
-                                        autoStart: true,
-                                        delay: 70,
-                                        loop: true
-                                    }}
+                                    autoStart: true,
+                                    delay: 70,
+                                    loop: true
+                                }}
 
-                                />
-                               
-                            </Typography>
-                            <Typography variant="body2" color="text.secondary">
-                                {info.description}
+                            />
 
-                            </Typography>
-                        </CardContent>
-                    </CardActionArea>
-                    <CardActions >
-                        <div className="projectBtn mx-auto">
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                            {info.description}
 
-                            <a className="btn btn-outline-primary m-2" style={{ textDecoration: 'none', }} href={info.github} rel="noreferrer" target="_blank" ><GitHubIcon  ></GitHubIcon> GitHub</a>
-                            <a className="btn btn-outline-danger m-2 " style={{ textDecoration: 'none', }} href={info.live} rel="noreferrer" target="_blank" ><VisibilityIcon className="  "></VisibilityIcon> Live Demo</a>
+                        </Typography>
+                    </CardContent>
+                </CardActionArea>
+                <CardActions >
+                    <div className="projectBtn mx-auto">
 
-                        </div>
-                    </CardActions>
-                </Card>
+                        <a className="btn btn-outline-primary m-2" style={{ textDecoration: 'none', }} href={info.github} rel="noreferrer" target="_blank" ><GitHubIcon  ></GitHubIcon> GitHub</a>
+                        <a className="btn btn-outline-danger m-2 " style={{ textDecoration: 'none', }} href={info.live} rel="noreferrer" target="_blank" ><VisibilityIcon className="  "></VisibilityIcon> Live Demo</a>
+
+                    </div>
+                </CardActions>
+            </Card>
 
 
-            </div>
-    
+        </div>
+
 
 
     );
