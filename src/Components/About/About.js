@@ -4,7 +4,7 @@ import { FaAward } from 'react-icons/fa';
 import { TiFolderOpen } from 'react-icons/ti';
 import { MdDownloadForOffline } from 'react-icons/md';
 import './About.css';
-import CV from '../../Assets/Shamuel-Resume.pdf'
+import CV from '../../Assets/Shamuel_Resume.pdf'
 
 
 
